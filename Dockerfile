@@ -4,7 +4,7 @@ FROM ubuntu
 # ...
 
 ENV DEBIAN_FRONTEND noninteractive
-
+<!!DOCTYPE html>
 RUN apt-get update && \
 
     apt-get -y install gcc mono-mcs && \
